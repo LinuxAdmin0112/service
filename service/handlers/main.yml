@@ -1,8 +1,0 @@
----
-# handlers file for service
-#
-- name: Start service
-  service:
-    name: '{{ package }}'
-    state: '{{ service }}' 
-  when: 
